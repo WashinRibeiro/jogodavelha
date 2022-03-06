@@ -1,0 +1,36 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  ol, ul {
+    padding-left: 30px;
+    list-style-type: none;
+  }
+
+  #imgjogo{
+    height: 100px;
+    width: 100px;
+  }
+
+  .game h1, h2{
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .historyButton{
+    width: 270px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgba(172, 172, 172, 0.507);
+    border-radius: 7px;
+    margin-bottom: 5px;
+  }
+
+  .margin{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
